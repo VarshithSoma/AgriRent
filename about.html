@@ -1,70 +1,481 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>The Generics | About</title>
+    <title>Home - AgriRent</title>
     <meta name="description" content="This is the description" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./about.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
   <body>
-    <header class="main-header">
-      <nav class="nav main-nav">
-        <ul>
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="store.html">STORE</a></li>
-          <li><a href="about.html">ABOUT</a></li>
-        </ul>
-      </nav>
-      <h1 class="band-name band-name-large">The Generics</h1>
-    </header>
-
-    <section class="content-section container">
-      <h2 class="section-header">ABOUT</h2>
-      <img class="about-band-image" src="Images/Band Members.png" />
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta dolorum
-        nulla accusantium perferendis quam explicabo odit quisquam ea natus?
-        Saepe ducimus, minima error alias dolorum consectetur officia architecto
-        voluptatem iure sunt eveniet nam, recusandae explicabo, itaque vel
-        autem. Accusamus suscipit sit labore sed blanditiis a est rem harum
-        expedita veritatis numquam voluptatibus dolore voluptatum sunt
-        repellendus explicabo, excepturi beatae perferendis. Numquam dicta quis
-        ipsum explicabo suscipit alias placeat, ea, vero minus ducimus
-        voluptatibus iste repellendus deleniti? Eos, quas! Voluptatem tempora
-        explicabo, corrupti dolor hic iure quo, ipsum voluptates quaerat omnis
-        accusamus et vel, necessitatibus doloribus optio. Odio nobis ad
-        molestias.
-      </p>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio qui
-        consequuntur aut. Nobis debitis ipsum soluta sit itaque officiis impedit
-        maiores suscipit magni id harum consequuntur quas delectus culpa, saepe
-        nostrum, autem ullam! Assumenda molestiae reprehenderit sunt ducimus id
-        saepe porro vitae asperiores eum accusantium? Illum aliquid excepturi
-        magni quos.
-      </p>
-    </section>
-
-    <footer class="main-footer">
-      <div class="container main-footer-container">
-        <h3 class="band-name">The Generics</h3>
-        <ul class="nav footer-nav">
-          <li>
-            <a href="https://www.youtube.com" target="_blank">
-              <img src="Images/YouTube Logo.png" />
-            </a>
-          </li>
-          <li>
-            <a href="https://www.spotify.com" target="_blank">
-              <img src="Images/Spotify Logo.png" />
-            </a>
-          </li>
-          <li>
-            <a href="https://www.facebook.com" target="_blank">
-              <img src="Images/Facebook Logo.png" />
-            </a>
-          </li>
-        </ul>
+    <header class="navbar">
+      <div class="left">
+        <a href="index.html">HOME</a>
+        <a href="store.html">STORE</a>
+        <a href="about.html">ABOUT</a>
       </div>
+      <nav class="right">
+        <h1>AgriRent</h1>
+      </nav>
+      <div class="hamburger">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+    </header>
+    <body>
+      <main class="xyx d-flex justify-content-space-around" >
+        <img src="./Images/logo.png" alt="logo">
+        <div>
+          <h1><span>Harvest</span><span> Efficiency</span></h1>
+          <h3><span>In the ever-evolving world of agriculture, efficiency and resource optimization are paramount. <br> Our innovative application, AgriRent, is here to transform the way farmers access and utilize agricultural machinery.<br>
+            AgriRent serves as a dynamic platform where farmers can seamlessly connect to book or rent out their machinery to fellow farmers in need.</span></h3>
+        </div>
+        <!-- <a href="#loginone">Start Renting</a> -->
+      </main>
+      <section>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="./Images/3.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h1 style="color:white;">Cultivating Collaboration</h1>
+                <h2 style="color:white;">Fostering synergy through shared agricultural equipment rental</h2>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="./Images/1.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h1 style="color:white;">Awareness about New Technology</h1>
+                <h2 style="color:white;">Igniting awareness through innovative technology</h2>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./Images/2.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h1 style="color:white;">Enhanced Efficiency</h1>
+                <h2 style="color:white;">Maximizing productivity through enhanced efficiency</h2>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <section>
+        <img
+          src="./Images/6409638490aec580e678fedd62e44a8f.png"
+          alt=""
+          srcset=""
+          id="image"
+        />
+      </section>
+      <section id="commitment">
+        <h3>Our Commitment</h3>
+        <span>Empowering farmers through easy access to the </span>
+        <span>right machinery at the right time for sustainable </span>
+        <span>growth.</span>
+      </section>
+      <section id="card">
+        <div class="detail">
+          <h1>Simple Booking Process</h1>
+          <span class="sub">Rent machinery in just a few clicks.</span>
+          <a href="#loginone">Browse Machinery</a>
+        </div>
+      </section>
+      <section id="threeCards">
+        <div class="cardabout">
+          <img src="./Images/Screenshot 2024-03-28 at 4.52.33 PM.png" alt="" />
+        </div>
+      </section>
+      <section id="benifits">
+        <div class="im1">
+          <img
+            src="./Images/6409638490aec580e678fedd62e44a8f.png"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div class="im2">
+          <img
+            src="./Images/Screenshot 2024-03-28 at 4.59.38 PM.png"
+            alt=""
+            srcset=""
+          />
+        </div>
+      </section>
+    </body>
+    <footer>
+      <ul>
+        <li><a href="">Privacy Policy</a></li>
+        <li><a href="">Terms &amp; Conditions</a></li>
+        <li><a href="">Contact Us</a></li>
+        <li><a href="">More Info</a></li>
+      </ul>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #ecfdf5;
+      scroll-behavior: smooth;
+    }
+    
+    header {
+      color: #236452;
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem;
+      font-size:x-large;
+    }
+    
+    header h1 {
+      margin: 0;
+    }
+    
+    header nav ul {
+      display: flex;
+      list-style-type: none;
+      /* background-color: #000000; */
+    
+    }
+    
+    header nav ul li {
+      margin-right: 1rem;
+    }
+    
+    header nav a {
+      color: #236452;
+      text-decoration: none;
+    }
+    
+    main {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .carousel-caption
+    {
+      font-size: xx-larger;
+    }
+    main section {
+      background-color: #f2f2f2;
+      flex-basis: 30%;
+      padding: 1rem;
+      margin: 1rem;
+    }
+    
+    main section h2 {
+      margin: 0 0 1rem;
+    }
+    .left {
+      width: 20%;
+      display: flex;
+      flex-direction: row;
+      color: #236452;
+      align-items: center;
+      justify-content: space-around;
+      text-decoration: none;
+      margin-left: 5%;
+    }
+    .left a {
+      width: 60%;
+      display: flex;
+      flex-direction: row;
+      color: #236452;
+      text-decoration: none;
+    }
+    .right {
+      margin-left: -25%;
+    }
+    body main {
+      margin-top: 7%;
+      color: #236452;
+      font-size: xx-large;
+      align-items: center;
+      justify-content: center;
+      display: block;
+    }
+    body main span {
+      display: block;
+      text-align: center;
+    }
+    body main h3 span {
+      display: block;
+      color: #65a30d;
+      font-size: 22px;
+      font-weight: 400;
+    }
+    button {
+      width: 360px;
+      height: 57px;
+      border-radius: 4px;
+      background-color: #65a30d;
+      border: none;
+      color: #ecfdf5;
+      font-weight: 600;
+      font-size: 18px;
+      display: block;
+      margin: auto;
+      margin-top: 20px;
+    }
+    section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 7rem;
+      border-radius: 10px;
+      align-self: center;
+    }
+    section image {
+      height: 719px;
+      border-radius: 10px;
+      width: 800px;
+    }
+    #image {
+      border-radius: 17px;
+    }
+    #commitment {
+      display: block;
+      align-self: center;
+      align-items: center;
+      color: #236452;
+    }
+    #commitment h3 {
+      display: block;
+      font-weight: 700;
+      font-size: 28px;
+      color: #65a30d;
+      align-self: center;
+      margin-left: 0rem;
+      text-align: center;
+    }
+    #commitment span {
+      margin: 10px;
+      display: block;
+      font-weight: 400;
+      font-size: 38px;
+      color: #059669;
+      align-self: center;
+      line-height: 55.6px;
+      align-self: center;
+      display: block;
+      text-align: center;
+    }
+    .card {
+      display: block;
+    }
+    .img img {
+      width: 512px;
+      height: 320px;
+      border-radius: 16px;
+    }
+    .detail {
+      width: 512px;
+      height: 320px;
+    }
+    .detail h1 {
+      padding-left: 5rem;
+      font-weight: 700;
+      font-size: 51px;
+      size: 51px;
+      line-height: 61.2px;
+      color: #064e3b;
+    }
+    .sub {
+      padding-left: 5rem;
+      font-weight: 400;
+      size: 18px;
+      line-height: 25.2px;
+      color: #059669;
+    }
+    #image {
+      transform: scale(0.6);
+    }
+    .cardabout {
+      transform: scale(0.7);
+    }
+    #benifits {
+      transform: scale(0.6);
+    }
+    @import url(https://fonts.googleapis.com/css?family=Roboto:300);
+    
+    .login-page {
+      width: 360px;
+      padding: 8% 0 0;
+      margin: auto;
+    }
+    .form {
+      position: relative;
+      z-index: 1;
+      background: #ffffff;
+      max-width: 360px;
+      margin: 0 auto 100px;
+      padding: 45px;
+      text-align: center;
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    }
+    .form input {
+      font-family: "Roboto", sans-serif;
+      outline: 0;
+      background: #f2f2f2;
+      width: 100%;
+      border: 0;
+      margin: 0 0 15px;
+      padding: 15px;
+      box-sizing: border-box;
+      font-size: 14px;
+    }
+    .form button {
+      font-family: "Roboto", sans-serif;
+      text-transform: uppercase;
+      outline: 0;
+      background: #4caf50;
+      width: 100%;
+      border: 0;
+      padding: 15px;
+      color: #ffffff;
+      font-size: 14px;
+      -webkit-transition: all 0.3 ease;
+      transition: all 0.3 ease;
+      cursor: pointer;
+    }
+    .form button:hover,
+    .form button:active,
+    .form button:focus {
+      background: #43a047;
+    }
+    .form .message {
+      margin: 15px 0 0;
+      color: #b3b3b3;
+      font-size: 12px;
+    }
+    .form .message a {
+      color: #4caf50;
+      text-decoration: none;
+    }
+    .form .register-form {
+      display: none;
+    }
+    .container {
+      position: relative;
+      z-index: 1;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+    .container:before,
+    .container:after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+    .container .info {
+      margin: 50px auto;
+      text-align: center;
+    }
+    .container .info h1 {
+      margin: 0 0 15px;
+      padding: 0;
+      font-size: 36px;
+      font-weight: 300;
+      color: #1a1a1a;
+    }
+    .container .info span {
+      color: #4d4d4d;
+      font-size: 12px;
+    }
+    .container .info span a {
+      color: #000000;
+      text-decoration: none;
+    }
+    .container .info span .fa {
+      color: #ef3b3a;
+    }
+    body {
+      font-family: "Roboto", sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    footer {
+      background-color: #ecfdf5;
+      margin: 0 0 0 0;
+      padding: 0 auto;
+    }
+    footer ul {
+      list-style-type: none;
+      width: 100%;
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: center;
+      padding: 28px 0;
+    }
+    footer li {
+      display: inline;
+      padding: 0 16px;
+    }
+    footer li a {
+      color: #064e3b;
+      text-decoration: none;
+    }
+    footer li a:hover {
+      text-decoration: underline;
+    }
+    .detail a {
+      width: 360px;
+      height: 57px;
+      border-radius: 4px;
+      background-color: #65a30d;
+      border: none;
+      color: #ecfdf5;
+      font-weight: 600;
+      font-size: 18px;
+      display: block;
+      margin: auto;
+      margin-top: 20px;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .xyz a {
+      width: 360px;
+      height: 57px;
+      border-radius: 4px;
+      background-color: #65a30d;
+      border: none;
+      color: #ecfdf5;
+      font-weight: 600;
+      font-size: 18px;
+      display: block;
+      margin: auto;
+      margin-top: 20px;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+  </style>
 </html>
